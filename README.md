@@ -2,6 +2,7 @@
 ❗️❗️❗️Важные атрибуты документации первого примера для тех, кто захочет повторить самостоятельно:
 ❇️ Base URL:  https://rahulshettyacademy.com    
 ❇️ Обязательный параметр для всех запросов: key =qaclick123
+
 🔶POST:
 ➡️ Resource: /maps/api/place/add/json
 ➡️ Sample Body:
@@ -21,9 +22,11 @@
   "website": "http://google.com",
   "language": "French-IN"
 }
+
 🔶GET:
 ➡️ Resource: /maps/api/place/get/json
 ➡️ Query Parameters: key,  place_id ( place_id  value comes from Add place response)
+
 🔶PUT:
 ➡️ Resource: /maps/api/place/update/json
 ➡️ Sample Body:
@@ -32,6 +35,7 @@
   "address":"70 Summer walk, USA",
   "key":"qaclick123"
 }
+
 🔶DELETE:
 ➡️ Resource: /maps/api/place/delete/json
 ➡️ Sample Body:
